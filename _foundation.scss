@@ -1,0 +1,114 @@
+// _foundation
+
+/*MAIN STYLES*/
+//mix-ins
+@mixin flexandcenter {
+    display: flex;
+    justify-content: center;
+}
+
+// html, body {
+//     height: 100%;
+// }
+
+body {
+    background-image: radial-gradient(#fff, #c2c2c2);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    // min-height: 100vh;
+    // margin: 0;
+}
+
+header {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        @include flexandcenter();
+        width: 15%;
+        font-size: 28px;
+        margin: 20px 0 0 0;
+        padding: 40px 0;
+        color: #DFDFDF;
+        border-radius: 35% 80% 35% 80%;
+        text-shadow: 0px 0px 1px #181818;
+        box-shadow: 0px 0px 20px #181818;
+        background-image: linear-gradient(to bottom right, red, green, blue);
+    }
+
+    nav {
+        width: 100%;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+
+            li {
+                font-size: 22px;
+
+                a {
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+// main {
+//     flex: 1;
+// }
+
+footer {
+    // flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    margin: 2%;
+    padding: 20px 60px;
+    background-color: #181818;
+    height: 80px;
+
+    #socials_list {
+        width: 75%;
+        @include flexandcenter();
+        justify-content: flex-start;
+        // background-color: red;
+    }
+
+    #others_list {
+        width: 25%;
+        @include flexandcenter();
+        // background-color: purple;
+    }
+
+    nav {
+        ul {
+            display: flex;
+
+            li {
+                margin: 0 10px 0 10px;
+                
+                a {
+                    text-decoration: none;
+                    box-shadow: 0px 1px 10px #ffffff;
+                    border-radius: 20px;
+                    padding: 10px;
+                    color: purple;
+                    transition: 1s;
+                }
+            }
+
+            a:hover {
+                box-shadow: none;
+                background-color: #DFDFDF;
+            }
+        }
+    }
+}
