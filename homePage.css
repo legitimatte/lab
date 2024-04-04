@@ -113,7 +113,7 @@ footer #socials_list {
   justify-content: flex-start;
 }
 footer #others_list {
-  width: 25%;
+  width: 50%;
   display: flex;
   justify-content: center;
 }
