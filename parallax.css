@@ -168,7 +168,7 @@ h1 {
   width: 100%;
   min-height: 100vh;
   position: relative;
-  text-shadow: 2px 2px 5px green, 5px 5px 70px black;
+  text-shadow: 2px 2px 5px rgb(91, 168, 255), 5px 5px 70px black;
   transform-style: preserve-3d;
 }
 
@@ -177,7 +177,7 @@ h1 {
   width: 100%;
   height: 100%;
   position: absolute;
-  background: url(../FREELANCEmattbishopdance/images/BishopTangofusionSQ.jpg) top center;
+  background: url(images/Impulse.jpg) top center;
   background-size: cover;
   transform: translateZ(-1px) scale(2.2);
 }
