@@ -177,7 +177,7 @@ h1 {
   width: 100%;
   height: 100%;
   position: absolute;
-  background: url(images/Impulse.jpg) top center;
+  background: url(https://unsplash.it/640/425?image=33) top center;
   background-size: cover;
   transform: translateZ(-1px) scale(2.2);
 }
